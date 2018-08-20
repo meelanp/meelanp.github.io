@@ -2,6 +2,7 @@
     @media only screen and (max-width: 1200px) {
         header {
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url(img/Mobile.jpg);
+        background-attachment: scroll;
         }
         nav {
             background-color: transparent;
@@ -141,6 +142,7 @@
     {
         header {
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url(img/Mobile.jpg);
+        background-attachment:scroll;
         }
         nav {
             background-color: transparent;
