@@ -1,0 +1,399 @@
+
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-weight: 300;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    text-rendering: optimizeLegibility;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+    
+}
+
+/* ---- MAIN NAVIGATION ----*/  
+nav {
+    height: 40px;
+/*    background-color: rgba(0, 0, 0, 0.5);*/
+}
+.navigation {
+    list-style: none;
+    float: right;
+    margin-top: 0;
+}
+
+.navigation a {
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 115%;
+    font-weight: 300;
+    padding: 10px 10px 10px 10px;
+
+}
+
+/* ---- NAVI LINKS ----*/
+.navigation a:link,
+.navigation a:visited 
+{
+    color: white;
+    padding-bottom: 1px;
+    background-color: transparent;
+}
+
+.navigation a:hover,
+.navigation a:active {
+    color: #a2a2a2;
+}
+
+/* ---- HEADER ----*/
+
+header {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url(img/OG.JPG);
+    display: grid;
+    font-family: 'Montserrat';
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+    font-weight: 300;
+    font-size: 10vh;
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 10px;
+/*    background-color: rgba(0, 0, 0, 0.5);*/
+    top: 150px;
+}
+
+
+
+.text-box {
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 0px;
+    margin-top: auto;
+}
+
+header h2 {
+    font-family: 'Montserrat';
+    text-align: right;
+    color: white;
+    font-weight:300;
+    font-size: 5vh;
+    margin-top: 0px;
+    padding-right: 10px;
+    padding-bottom:10px;
+    margin-bottom: 0px;
+}
+
+/*---- MENU ---- */
+
+.menu-icon i {
+    font-size: 200%;
+    color: white;
+    margin-top: 5px;
+    margin-right: 10px;
+    float: right;
+    display: none;
+    cursor: pointer;
+}
+/* ---- FIXED NAVIGATION ----*/
+.sticky {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+
+
+.sticky a:link,
+.sticky a:visited{
+    color: #ffffff;
+}
+
+.sticky a:hover,
+.sticky a:active{
+    color: #a2a2a2;
+}
+
+
+
+/* ---- ABOUT SECTION ----*/
+
+
+.about {
+    padding: 135px 10px;
+    display: grid;
+    grid-column-gap: 40px;
+    grid-template-columns: 1fr 2fr;
+    background-color: #555;
+    height: auto;
+    margin-top:
+}
+
+.pic-style {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+.profile-pic{
+    margin-left: 10px;
+}
+
+.about-content {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.about-content h2 {
+    margin: 0;
+    font-size: 10vh;
+    color: #2980b9;
+}
+
+.about-content p {
+    margin: 0;
+    color: white;
+    line-height: 2.0;
+    font-weight: 300;
+    font-size: 3.7vh;
+}
+
+/* ---- LINKS ----*/
+a:link,
+a:visited{
+    color: white; 
+    background-color: transparent; 
+}
+
+
+p a:hover {
+    color: #2980b9; 
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* ---- SKILLS ----*/
+.skills {
+    display: grid;
+    grid-template-areas: "title title title"
+                         "languages tools spoken-languages";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    padding: 60px 20px;
+    background-color:#2980b9;
+    height: auto;
+    color: black;
+}
+
+.skills ul {
+    list-style-image: url(img/_ionicons_svg_ios-arrow-forward.svg);
+    padding-right: 50px;
+}
+
+
+.image-box {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 28%;
+}
+
+.skills ul li {
+    font-size: 6.7vh;
+    text-align: center;
+    padding: 10px;
+}
+.skills img {
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+
+.languages {
+    grid-area: languages;
+    padding-left: 10px;
+}
+
+.tools  {
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    padding-left: 10px;
+}
+
+.speaking-langs {
+    grid-area: spoken-languages;
+    padding-left: 10px;
+}
+
+
+.skills h2 {
+    grid-area: title;
+    text-align: center;
+    font-size: 10vh;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    border-bottom: 4px solid white;
+    
+    padding-bottom: 20px;
+    
+}
+
+.tools {
+    grid-area: tools;
+}
+
+
+
+/* ---- PROJECTS ---- */
+
+.projects {
+    display: grid;
+    grid-template-areas: "title title"
+                         "project-1 project-2" 
+                        "project-3 project-4";
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    padding: 60px 20px;
+    background-color: #555;
+    height: auto;
+    color: black;
+}
+
+.projects h2 {
+    grid-area: title;
+    text-align: center;
+    font-size: 10vh;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    border-bottom: 4px solid black;
+    padding-bottom: 20px;
+    
+}
+
+.project-x {
+    color: white;
+    border: 4px solid black;
+}
+
+.projects h3 {
+    font-size: 4vh; 
+    margin: 0;
+    padding: 10px 5px;
+    text-align: center;
+    border-bottom: 4px solid black;
+}
+
+.projects h4 {
+    font-size: 3vh; 
+    margin: 0;
+    font-style: italic;
+    padding: 20px 0px 10px 0px;
+    border-bottom: 4px solid black;
+    
+}
+
+.projects i {
+    font-size: 8vh;
+    padding: 0px 10px;
+    color: #fff;
+    border-bottom: 4px solid black;
+}
+
+.projects img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-bottom: 4px solid black;
+    margin-bottom: 20px;
+}
+
+.projects p {
+    padding: 0px 10px 10px 10px;
+    margin: 0px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 120%;
+}
+.coding-langs {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+
+/* ---- RESUME HEADER ---- */
+
+.resume {
+    background-color: #2980b9;
+    color: black;
+}
+
+.resume h2 {
+    margin: 0;
+    padding: 20px;
+    text-align:center;
+    font-size: 9vh;
+}
+
+.resume i {
+    padding-left: 30px;
+}
+
+.resume a:link,
+.resume a:visited {
+    text-decoration: none;
+}
+
+.resume a:hover,
+.resume a:active {
+    color: #a2a2a2;
+}
+
+/* ---- CONTACT ---- */
+
+.contact {
+    background-color: #212121;
+    color: white;
+    padding: 40px;
+    grid-template-columns: 1fr;
+}
+.contact h2 {
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+    font-size: 6vh;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.social-links i {
+    font-size: 7vh;
+    padding:20px;
+}
+
+
+.social-links a:hover,
+.social-links a:active {
+    color: #2980b9;
+}

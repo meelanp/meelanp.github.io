@@ -1,0 +1,315 @@
+
+    @media only screen and (max-width: 1200px) {
+                nav {
+            background-color: transparent;
+        }
+        .navigation {
+            background-color: rgba(0, 0, 0, 0.50);
+            width: 100%;
+            
+        }
+        
+        .navigation a {
+            display: inline-block;
+            align-items: center;
+            padding-top: 2px;
+
+        }
+        
+        /* ---- NAVI LINKS ----*/
+
+        
+        .navigation a {
+        font-size: 115%;
+        width: 100%;
+        font-weight: 300;
+        border-bottom: 1px solid #555;
+            
+        }   
+        .navigation a:link,
+        .navigation a:visited 
+        {
+        color: #ffffff;
+        }
+        
+        .navigation a:hover,
+        .navigation a:active {
+            color: rgb(87, 189, 255);
+        }
+        
+        h1 {
+            margin-top: 320px;
+            text-align: center;
+            padding-right: 0px;
+            margin-right: 0px;
+            font-size: 10vh;
+            margin-bottom: px;
+        }
+        header h2 {
+            text-align: center;
+            margin-right: 0px;
+            font-size: 4vh;
+            margin-bottom: 370px;
+            padding-bottom: 10px;
+            padding-top: 5px;
+            font-weight: 400;
+        }
+        .menu-icon i {
+            display: block;
+            color: white;
+        }
+        .sticky {
+            background-color: transparent;
+        }
+        .sticky a:hover,
+        .sticky a:active{
+            color: rgb(87, 189, 255);
+        } 
+        .about {
+        padding: 45px 10px;
+        display: grid;
+        grid-column-gap: 10px;
+        grid-template-columns: 1fr;
+        height: auto;
+        }
+
+        .about-content h2 {
+            margin: 0;
+            font-size: 8vh;
+        }
+
+        .about-content p {
+            margin: 0;
+            color: white;
+
+        }
+        .profile-pic{
+            margin-top: 0px;
+            margin-right: 10px;
+            margin-left: 10px;
+            margin-bottom: 0px;
+            padding:5px;
+        }
+        
+        .about-content {
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+            padding: 5px;
+        }
+        
+        /*---- Skills ----*/
+        .skills {
+            display: grid;
+            grid-template-areas: "title"
+                                 "languages" 
+                                "tools" 
+                                "spoken-languages";
+            grid-template-columns: 1fr;
+            grid-row-gap: 7vh;
+            padding: 40px 40px;
+            height: auto;
+        }
+        
+        .skills h2 {
+            margin-bottom: 0px;
+        }
+                .skills .tools {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            border-top: 4px solid white;
+            border-bottom: 4px solid white;
+            border-left: none;
+            border-right: none;
+        }
+        
+        .skills .speaking-langs {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+        
+        
+    }
+
+    @media only screen and (max-width: 768px) 
+    {
+        nav {
+            background-color: transparent;
+        }
+        .navigation {
+            float: left;
+            padding-top: 0px;
+            display: none;
+            background-color: rgba(0, 0, 0, 0.50);
+            
+        }
+        
+        .navigation a {
+            display: inline-block;
+            align-items: center;
+            padding-top: 2px;
+        }
+        
+        /* ---- NAVI LINKS ----*/
+
+        
+        .navigation a {
+        font-size: 115%;
+        width: 100%;
+        font-weight: 300;
+        border-bottom: 1px solid #555;
+            
+        }   
+        .navigation a:link,
+        .navigation a:visited 
+        {
+        color: #ffffff;
+        }
+        
+        .navigation a:hover,
+        .navigation a:active {
+            color: rgb(87, 189, 255);
+        }
+        
+        h1 {
+            margin-top: 320px;
+            text-align: center;
+            padding-right: 0px;
+            margin-right: 0px;
+            font-size: 6vh;
+        }
+        header h2 {
+            text-align: center;
+            margin-right: 0px;
+            font-size: 2.5vh;
+            margin-bottom: 370px;
+            padding-bottom: 10px;
+            padding-top: 5px;
+            font-weight: 400;
+        }
+        .text-box {
+        }
+        .menu-icon i {
+            display: block;
+            color: white;
+        }
+        
+        .sticky a:hover,
+        .sticky a:active{
+            color: rgb(87, 189, 255);
+        } 
+        .about {
+        padding: 45px 10px;
+        display: grid;
+        grid-column-gap: 10px;
+        grid-template-columns: 1fr;
+        height: auto;
+        }
+
+        .about-content h2 {
+            margin: 0;
+            font-size: 8vh;
+        }
+
+        .about-content p {
+            margin: 0;
+            color: white;
+            line-height: 2;
+            font-weight: 400;
+            font-size: 2vh;
+
+        }
+        .profile-pic{
+            margin-top: 0px;
+            margin-right: 10px;
+            margin-left: 10px;
+            margin-bottom: 0px;
+            padding:5px;
+        }
+        
+        .about-content {
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+            padding: 5px;
+        }
+        
+        /*---- Skills ----*/
+        .skills {
+            display: grid;
+            grid-template-areas: "title"
+                                 "languages" 
+                                "tools" 
+                                "spoken-languages";
+            grid-template-columns: 1fr;
+            grid-row-gap: 7vh;
+            padding: 40px 40px;
+            height: auto;
+        }
+        
+        .skills h2 {
+            margin-bottom: 0px;
+        }
+        
+        .skills .tools {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            border-top: 4px solid white;
+            border-bottom: 4px solid white;
+            border-left: none;
+            border-right: none;
+        }
+        
+        .skills .speaking-langs {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+        
+        /* ---- Projects ----*/
+        .projects {
+            display: grid;
+            grid-template-areas: "title"
+                                 "project-1"
+                                 "project-2" 
+                                 "project-3"
+                                 "project-4";
+            grid-template-columns: 1fr;
+            grid-column-gap: 10px;
+            grid-row-gap: 20px;
+            padding: 40px 40px;
+            height: auto;
+            color: black;
+        }
+        
+        /* ---- RESUME ---- */
+        .resume {
+            padding: 40px 40px;
+        }
+        .resume h2 {
+            display: block;
+        }
+        .resume i {
+            display: block;
+            padding: 0;
+            
+        }
+        
+        /* ---- CONTACT ---- */
+        .social-links {
+            margin-left: 0px
+        }
+        .contact h2 {
+            font-size: 6.5vh;
+        }
+        .social-links i {
+            font-size: 10vh;
+            display: inline-block;
+        }
+
+    }
+
+    @media only screen and (max-width: 522px) {
+
+    }
+
+
