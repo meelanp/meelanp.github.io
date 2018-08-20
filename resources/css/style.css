@@ -220,6 +220,8 @@ p a:hover {
 .skills img {
     border: 4px solid white;
     border-radius: 50%;
+    width: 90%;
+    height: 90%;
 }
 
 
