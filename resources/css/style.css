@@ -200,7 +200,8 @@ p a:hover {
 }
 
 .skills ul {
-    list-style-image: url(img/_ionicons_svg_ios-arrow-forward.svg);
+    list-style-image: url('img/_ionicons_svg_ios-arrow-forward.svg');
+    list-style-type: square;
     padding-right: 50px;
 }
 
