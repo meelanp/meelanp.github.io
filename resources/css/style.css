@@ -224,6 +224,13 @@ p a:hover {
     height: 90%;
 }
 
+.skills embed {
+    border: 4px solid white;
+    border-radius: 50%;
+    width: 90%;
+    height: 90%;
+}
+
 
 .languages {
     grid-area: languages;
