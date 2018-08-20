@@ -1,6 +1,9 @@
 
     @media only screen and (max-width: 1200px) {
-                nav {
+        header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url(img/Mobile.JPG);
+        }
+        nav {
             background-color: transparent;
         }
         .navigation {
@@ -135,7 +138,6 @@
     {
         header {
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url(img/Mobile.JPG);
-        
         }
         nav {
             background-color: transparent;
