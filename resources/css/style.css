@@ -230,6 +230,13 @@ p a:hover {
     width: 90%;
     height: 90%;
 }
+.skills object {
+    border: 4px solid white;
+    border-radius: 50%;
+    width: 90%;
+    height: 90%;
+}
+
 
 
 .languages {
