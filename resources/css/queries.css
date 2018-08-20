@@ -1,7 +1,7 @@
 
     @media only screen and (max-width: 1200px) {
         header {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url(img/Mobile.JPG);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url(img/Mobile.jpg);
         }
         nav {
             background-color: transparent;
@@ -140,7 +140,7 @@
     @media only screen and (max-width: 768px) 
     {
         header {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url(img/Mobile.JPG);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url(img/Mobile.jpg);
         }
         nav {
             background-color: transparent;
